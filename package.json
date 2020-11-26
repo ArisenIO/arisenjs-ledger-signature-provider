@@ -1,7 +1,7 @@
 {
-  "name": "eosjs-ledger-signature-provider",
-  "version": "0.1.2",
-  "description": "A Signature provider for communicating with eosjs from a Ledger device.",
+  "name": "arisen-ledger-signature-provider",
+  "version": "1.0.0",
+  "description": "ARISEN/ARISENJS Signature Provider Interface for Ledger devices",
   "author": {
     "name": "block.one",
     "url": "https://www.block.one"
@@ -22,16 +22,17 @@
     "docs": "typedoc --excludePrivate --excludeProtected --out ./docs --theme markdown"
   },
   "dependencies": {
+    "@arisencore/js": "^1.0.3",
     "@babel/core": "7.6.0",
     "@babel/preset-env": "7.2.3",
     "@babel/preset-react": "7.0.0",
     "@ledgerhq/hw-transport": "4.48.0",
     "@ledgerhq/hw-transport-u2f": "4.48.0",
+    "arisenjs-ecc": "^1.0.0",
+    "arisenjsv1": "^1.0.2",
     "asn1-ber": "1.0.9",
     "bip32-path": "0.4.2",
-    "buffer": "5.2.1",
-    "eosjs": "20.0.0",
-    "eosjs-ecc": "4.0.4"
+    "buffer": "5.2.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.6.0",

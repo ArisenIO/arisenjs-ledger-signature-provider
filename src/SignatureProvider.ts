@@ -1,4 +1,4 @@
-import { Api } from 'eosjs'
+import { Api } from '@arisencore/js'
 import { LedgerAPI } from './LedgerAPI'
 import { getTransport } from './LedgerUtils'
 
